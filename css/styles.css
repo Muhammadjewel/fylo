@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #181F2B;
+  color: #fff;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reviews-container {
+  padding: 50px;
+}
+
+.reviews-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.review {
+  max-width: 360px;
+  padding: 40px 20px 20px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  background-color: #202A3C;
+}
+
+/* .review:nth-child(3) { */
+.review:nth-child(3n) {
+  margin-right: 0;
+}
+
+.review-text {
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.review-meta {
+  display: flex;
+}
+
+.review-meta::before {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  border-radius: 50%;
+  background-image: url("https://picsum.photos/50");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  content: "";
+}
+
+.review-author {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.review-author-position {
+  margin: 0;
+  font-size: 14px;
+}
