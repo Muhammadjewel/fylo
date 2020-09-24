@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #333;
+  color: #222;
+}
+
+.registration-form {
+  max-width: 500px;
+  padding: 50px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: gold;
+}
+
+.registration-form-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.registration-form-heading {
+  margin: 0;
+}
+
+.close-button {
+  width: 45px;
+  height: 45px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.form-inner {
+  width: 500px;
+  padding: 50px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  box-shadow: -5px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.form-user {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin-top: -80px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.input-row {
+  display: flex;
+}
+
+.input-row .input-group {
+  width: 50%;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.label {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: gray;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  padding-left: 0;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: 0;
+}
+
+.input:focus {
+  border-bottom-color: gold;
+}
+
+.form-bottom {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.toza-button {
+  margin-left: 20px;
+  padding: 10px;
+  border: none;
+  color: #222;
+  font-weight: bold;
+  background-color: transparent;
+}
