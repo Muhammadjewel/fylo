@@ -38,21 +38,25 @@ body {
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
+  margin-left: -50px;
   list-style-type: none;
 }
 
 .review {
-  max-width: 360px;
+  /* max-width: 360px; */
+  flex-grow: 1;
+  width: calc((100% - 150px) / 3);
+  min-width: 270px;
   padding: 40px 20px 20px;
-  margin-right: 50px;
   margin-bottom: 50px;
+  margin-left: 50px;
   background-color: #202A3C;
 }
 
 /* .review:nth-child(3) { */
-.review:nth-child(3n) {
+/* .review:nth-child(3n) {
   margin-right: 0;
-}
+} */
 
 .review-text {
   margin: 0;
